@@ -10,3 +10,18 @@ git push -u origin feature/lesson
 git status
 git checkout main
 git pull
+
+add new repo---
+cd ..
+mkdir my-sec-repo
+cd my-sec-repo
+git init
+git remote //will show nothing cuz not connected to any remote server
+git remote add (ssh url)origin git@github.com:BalramWork/my-first-repo.git
+git remote -v //for checking if it connected to remote server
+git remote set-url origin <Http://URL>
+
+ssh key -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
+
+
+
