@@ -1,0 +1,12 @@
+git clone url
+git status
+git checkout -B feature/lesson
+git branch
+touch test2.txt
+git add test2.txt
+git commit -m "Add test2.txt"
+git push -u origin feature/lesson
+---check on github for pull request----
+git status
+git checkout main
+git pull
